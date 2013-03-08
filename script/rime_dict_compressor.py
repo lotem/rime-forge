@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import fileinput
@@ -19,8 +19,29 @@ word_table = {}
 phrase_list = []
 phrase_table = {}
 
+file_header = []
+table_has_begun = False
+reading_yaml = False
+
 for line in fileinput.input():
-  t = line.rstrip().split("\t")
+  line = line.rstrip()
+  if not table_has_begun:
+    if reading_yaml:
+      if line == '...':
+        reading_yaml = False
+      print line
+      continue
+    elif line == '---':
+      reading_yaml = True
+      print line
+      continue
+    elif not line or line.startswith('#'):
+      print line
+      continue
+    else:
+      table_has_begun = True
+      pass
+  t = line.split("\t")
   if not t: continue
   text = t[0]
   if len(t) < 2 and text not in phrase_table:
