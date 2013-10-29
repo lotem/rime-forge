@@ -22,11 +22,16 @@ file_name = os.path.join(dir, 'zhung.txt')
 
 # provide a comma separated list of options as command line argument
 # prefix an option with ! to deselect it
-default_options = 'gi-j,!zi-j,!v-w,bu,zhi,zr-zh,!zr-z,!rh-r,!zh-z,!l-n,' \
+default_options = 'shift,gi-j,!zi-j,!v-w,bu,zhi,zr-zh,!zr-z,!rh-r,!zh-z,!l-n,' \
                   'ueng-ung,ien-ian,uon-uan,m-n,!ng-n,rhy-el,o-eo,ptk-h,' \
                   '!5-tones,4-tones,!2-tones,!1-tone'
 
 rules = {
+    'shift' : [
+        (r'^([gkh]?)a([pk])', r'\1o\2'),
+        (r'^([gkh]?u?)at', r'\1ot'),
+        (r'^([bpmfvdtnl]|[zcsr][hr]?)ak', r'\1uok'),
+    ],
     'gi-j' : [
         (r'^gi', r'ji'),
         (r'^ki', r'qi'),
@@ -61,6 +66,7 @@ rules = {
         (r'^([zcs]r)i(u?)e([ptkh]?\d?)$', r'\1\2o\3'),
         #(r'^([zcs]r)io([ptkh]?\d?)$', r'\1uo\2'),
         #(r'^([zcs]r)i([aoeu]\w*)$', r'\1\2'),
+        (r'^([zcsr][rh])i([ptkh])$', r'\1y\2'),
     ],
     'zr-zh' : [
         (r'^([zcs])r', r'\1h'),
