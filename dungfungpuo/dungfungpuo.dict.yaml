@@ -1,4 +1,18 @@
-# !shift,!gi-j,!zi-j,!v-w,!bu,!zhi,zr-zh,!zr-z,rh-r,!zh-z,!l-n,!ueng-ung,!ien-ian,!uon-uan,!m-n,!ng-n,!rhy-el,!o-eo,!ptk-h,!5-tones,!4-tones,!2-tones,!1-tone
+﻿# Rime dictionary
+# encoding: utf-8
+#
+# dungfungpuo - 東風破
+#
+
+---
+name: dungfungpuo
+version: "2013.11.03"
+sort: by_weight
+use_preset_vocabulary: true
+max_phrase_length: 7
+min_phrase_weight: 100
+...
+
 東	dung1
 涷	dung4
 涷	dung1
@@ -747,7 +761,7 @@
 鎚	dui1
 椎	chui2
 顀	chui2
-推	?
+#推	?
 推	tui1
 胝	zhi1
 氐	zhi1
@@ -1218,7 +1232,7 @@
 侏	zhiu1
 硃	zhiu1
 趨	ciu1
-鯫	?
+#鯫	?
 鯫	cou2
 鯫	ciu1
 蔞	lou2
@@ -1550,7 +1564,7 @@
 迷	mi2
 泥	ni4
 泥	ni2
-臡	?
+#臡	?
 臡	nuo2
 臡	ni2
 溪	ki1
@@ -1968,7 +1982,7 @@
 屯	tun2
 屯	zhiun1
 窀	tun2
-窀	?
+#窀	?
 窀	zhiun1
 迍	zhiun1
 逡	ciun1
@@ -5106,7 +5120,7 @@
 畤	zhi4
 畤	zhy3
 沚	zhy3
-茝	?
+#茝	?
 茝	zhy3
 趾	zhy3
 址	zhy3
@@ -5469,7 +5483,7 @@
 矮	ya3
 擺	bai3
 柺	gua3
-拐	?
+#拐	?
 駭	hiai4
 挨	ai3
 挨	yai3
@@ -6344,7 +6358,7 @@
 蜢	meng3
 艋	meng3
 鑛	gueng3
-打	?
+#打	?
 打	ding3
 耿	geng3
 幸	heng4
@@ -6867,7 +6881,7 @@
 庇	bi4
 萃	cui4
 悴	cui4
-地	?
+地	di4
 肄	yi4
 謚	yik
 謚	shy4
@@ -9735,7 +9749,7 @@
 蹋	dap2
 闒	dap2
 譫	dap2
-譫	?
+#譫	?
 䈳	dap2
 閘	yap
 閘	gap
@@ -10176,7 +10190,7 @@
 𥰭	zha3
 𣘟	kia1
 𡤫	kia1
-𩭿	?
+#𩭿	?
 𢱈	gia4
 𠞊	chai1
 𠞊	cha1
@@ -10834,7 +10848,7 @@
 迆	yi2
 𤝻	yi2
 栘	yi2
-栘	?
+#栘	?
 歋	yi2
 酏	yi3
 酏	yi2
@@ -11568,7 +11582,7 @@
 槌	zhui4
 槌	chui2
 桘	chui2
-蓷	?
+#蓷	?
 蓷	tui1
 秪	zhi1
 䜉	chet
@@ -13102,7 +13116,7 @@
 䈚	tai2
 䈚	si3
 𪒴	tai2
-𪒴	?
+#𪒴	?
 𪒴	dai1
 𩿡	tai2
 豥	hai2
@@ -14171,12 +14185,12 @@
 虥	zhan4
 虥	shan4
 虥	chan2
-虥	?
+#虥	?
 䡲	chien2
 䡲	chan2
 𡎻	chien2
 𡎻	chan2
-𡎻	?
+#𡎻	?
 羴	hian1
 詽	yan2
 詽	tien1
@@ -14193,11 +14207,11 @@
 嘫	nan2
 㬮	nan2
 㬮	nan4
-㺗	?
-嬽	?
+#㺗	?
+#嬽	?
 嬽	yuen1
 𡰝	zhiuen1
-𡰝	?
+#𡰝	?
 躚	sien1
 躚	sien1
 𥑻	sien1
@@ -14368,7 +14382,7 @@
 訇	hiuen2
 訇	hueng1
 訮	hien1
-𤜼	?
+#𤜼	?
 僊	sien1
 㒨	sien1
 㲔	sien1
@@ -14938,7 +14952,7 @@
 胶	hiau2
 𨠦	hiau2
 䋂	hiau2
-倄	?
+#倄	?
 倄	hiau2
 㤊	hiau4
 㤊	hiau2
@@ -16740,7 +16754,7 @@
 𥻤	chou1
 鄹	ziu4
 鄹	zhou1
-鄹	?
+#鄹	?
 郰	zhou1
 齱	chuok
 齱	zhou1
@@ -17944,7 +17958,7 @@
 㠯	yi3
 已	yi3
 已	yi4
-佁	?
+#佁	?
 佁	yi3
 佁	chi4
 攺	yi3
@@ -18380,7 +18394,7 @@
 㧳	zhuai4
 夥	huo4
 夥	hua4
-箉	?
+#箉	?
 駴	hiai4
 𠢲	kiai3
 𥏪	kiai3
@@ -18443,7 +18457,7 @@
 𩗔	nui3
 鮾	nui3
 㼏	nui3
-𩬳	?
+#𩬳	?
 顡	chuai4
 顡	wui3
 顡	yi4
@@ -18483,9 +18497,9 @@
 朏	pei3
 㕈	wui4
 㕈	ai3
-疓	?
-䑂	?
-𦚪	?
+#疓	?
+#䑂	?
+#𦚪	?
 胗	zhin3
 胗	gin3
 㐱	zhin3
@@ -20272,7 +20286,7 @@
 𢽤	gam3
 澉	gam3
 澉	tam4
-㶒	?
+#㶒	?
 㶒	tam4
 擥	lam3
 罱	lam3
@@ -20764,7 +20778,7 @@
 㱖	cui4
 䆊	cui4
 瘁	cui4
-墬	?
+#墬	?
 齂	mat
 齂	hi4
 齂	hiai4
@@ -22975,7 +22989,7 @@
 䀀	fam4
 𥁔	fam4
 姂	fap2
-姂	?
+#姂	?
 姂	fam4
 劍	giem4
 㐸	kiem4
@@ -24067,7 +24081,7 @@
 㞽	hiuet
 猲	hat
 猲	hiet
-猲	?
+#猲	?
 𤢔	hiet
 𦪬	hiet
 𧼨	giet
@@ -25246,7 +25260,7 @@
 虉	yik
 㣂	ek
 𢷾	shuok
-𧾛	?
+#𧾛	?
 䭆	nek
 𦠡	sik
 腊	sik
@@ -25485,8 +25499,8 @@
 㦦	hik
 𥍟	hiuek
 殈	hiuek
-𣤩	?
-𥛚	?
+#𣤩	?
+#𥛚	?
 軄	zhik
 戠	zhik
 𥋏	zhik
@@ -25931,7 +25945,7 @@
 䑥	ap
 魥	kiep
 魥	ap
-遪	?
+#遪	?
 𨶩	hap2
 篕	hap2
 熆	hap2
@@ -25994,7 +26008,7 @@
 㯿	liep
 䈎	yep
 䈎	chiep
-殜	?
+#殜	?
 殜	yep
 殜	zhiep2
 䀹	ziep
@@ -26253,14 +26267,14 @@
 㪑	yep
 䤶	yep
 䁆	yep
-𩐱	?
+#𩐱	?
 昅	giep2
 灋	fap
 𥎰	fap
-䎎	?
-𣹵	?
-𡷝	?
-𦑣	?
+#䎎	?
+#𣹵	?
+#𡷝	?
+#𦑣	?
 攮	nang3
 𧧏	rie4
 渃	rie4
