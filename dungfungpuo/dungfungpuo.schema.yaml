@@ -4,7 +4,7 @@
 schema:
   schema_id: dungfungpuo
   name: 東風破 ₀.₁
-  version: "0.1.futzhin"
+  version: "0.2.futzhin"
   author:
     - Patrick <ipatrickmac@gmail.com>
   description: |
@@ -66,7 +66,7 @@ speller:
     - derive/([bpm])ei/$1ui/
     - derive/wui/wi/
     - derive/([iu])a(o|ng?)/a$1$2/
-    - derive/^([a-z]+)\d$/$1/
+    - derive/^([a-z]+)[0-4]$/$1/
     - derive/([dtngkhrzcs])o(u|ng)$/$1o/
     - derive/ong$/on/
     - 'xlit 1234 -</\'
@@ -133,7 +133,7 @@ translator:
     - xform y2 ŷ
     - xform y3 ý
     - xform y4 ỳ
-    - xform/([a-z]+)\d/$1/
+    - xform/([a-z]+)[0-4]/$1/
 
 reverse_lookup:
   dictionary: luna_pinyin
