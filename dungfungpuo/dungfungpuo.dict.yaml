@@ -6,7 +6,7 @@
 
 ---
 name: dungfungpuo
-version: "2013.11.03"
+version: "2013.11.15"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -81,9 +81,9 @@ min_phrase_weight: 100
 肜	yung2
 雄	yung2
 瞢	meng2
-瞢	mun4
+瞢	mung4
 瞢	mung2
-夢	mun4
+夢	mung4
 夢	mung2
 穹	kiung1
 芎	kiung1
@@ -95,7 +95,7 @@ min_phrase_weight: 100
 芃	fung2
 梵	fam4
 梵	fung2
-風	fun4
+風	fung4
 風	fung1
 楓	fung1
 豐	fung1
@@ -126,21 +126,21 @@ min_phrase_weight: 100
 攻	gung1
 攻	gung1
 蒙	mung2
-濛	mun3
+濛	mung3
 濛	mung2
 䰒	mung2
-艨	mun4
+艨	mung4
 艨	mung2
-朦	mun3
+朦	mung3
 朦	mung2
 矇	mung2
 饛	mung2
-鸏	mun3
+鸏	mung3
 鸏	mung2
 幪	mung2
 罞	mung2
 罞	mau2
-蠓	mun3
+蠓	mung3
 蠓	mung2
 霧	mung2
 霧	vu4
@@ -270,7 +270,7 @@ min_phrase_weight: 100
 蓉	yung2
 頌	yung2
 頌	siung4
-封	fun4
+封	fung4
 封	fung1
 胷	hiung1
 凶	hiung1
@@ -4928,7 +4928,7 @@ min_phrase_weight: 100
 范	fam1
 懂	dung3
 董	dung3
-懵	mun3
+懵	mung3
 孔	kung3
 㪌	sung3
 桶	dung4
@@ -4941,11 +4941,11 @@ min_phrase_weight: 100
 滃	wung3
 䐥	wung3
 塕	wung3
-琫	bun3
-菶	bun4
-菶	bun3
+琫	bung3
+菶	bung4
+菶	bung3
 俸	fung4
-俸	bun3
+俸	bung3
 竉	lung3
 攏	lung3
 儱	lung3
@@ -4965,7 +4965,7 @@ min_phrase_weight: 100
 冢	zhung3
 塚	zhung3
 奉	fung4
-捧	fun3
+捧	fung3
 勇	yung3
 湧	yung3
 甬	yung3
@@ -4981,7 +4981,7 @@ min_phrase_weight: 100
 竦	siung3
 慫	siung3
 聳	siung3
-覂	fun3
+覂	fung3
 湩	zhung4
 湩	dung3
 湩	dung4
@@ -6695,7 +6695,7 @@ min_phrase_weight: 100
 範	fam4
 犯	fam4
 送	sung4
-鳳	fun4
+鳳	fung4
 貢	gung4
 弄	lung4
 哢	lung4
@@ -6708,8 +6708,8 @@ min_phrase_weight: 100
 慟	dung4
 痛	tung4
 仲	zhung4
-諷	fun4
-賵	fun4
+諷	fung4
+賵	fung4
 哄	hung4
 閧	hung4
 閧	hiang4
@@ -10336,7 +10336,7 @@ min_phrase_weight: 100
 蘴	fung1
 灃	fung1
 寷	fung1
-麷	fun4
+麷	fung4
 麷	fung1
 㒥	fung1
 𡾿	fung1
@@ -10376,7 +10376,7 @@ min_phrase_weight: 100
 檬	mung2
 𨢊	mung2
 䴿	mung2
-𢄐	mun4
+𢄐	mung4
 𢄐	mung2
 𨣘	mung2
 髳	mung2
@@ -10385,7 +10385,7 @@ min_phrase_weight: 100
 雺	mung4
 雺	mung2
 雺	miou2
-霿	mun4
+霿	mung4
 霿	mung2
 䀄	mung2
 霥	mung2
@@ -10606,7 +10606,7 @@ min_phrase_weight: 100
 𢧳	yung2
 𡉚	fung1
 犎	fung1
-葑	fun4
+葑	fung4
 葑	fung1
 崶	fung1
 篈	fung1
@@ -17549,8 +17549,8 @@ min_phrase_weight: 100
 箽	dung3
 䵔	dung3
 𧄓	dung3
-𤾬	mun3
-曚	mun3
+𤾬	mung3
+曚	mung3
 䉥	sung3
 𣞷	sung3
 總	zung3
@@ -17572,7 +17572,7 @@ min_phrase_weight: 100
 勜	wung3
 𤌏	wung3
 嗡	wung3
-𦂌	bun3
+𦂌	bung3
 𦂌	bang3
 𢤱	lung3
 𢦅	hung3
@@ -17580,9 +17580,9 @@ min_phrase_weight: 100
 姛	dung4
 詷	dung4
 詷	dung4
-唪	bun4
+唪	bung4
 唪	fung4
-埲	bun4
+埲	bung4
 歱	zhung3
 㣫	zhung3
 喠	chung3
@@ -17643,7 +17643,7 @@ min_phrase_weight: 100
 䙕	siung3
 䙕	ziung3
 詾	hiung3
-𢇫	fun3
+𢇫	fung3
 𪁪	mung3
 䏵	mung3
 𨿿	chung3
@@ -20472,9 +20472,9 @@ min_phrase_weight: 100
 𩿀	zhung4
 䛪	kiung4
 䠻	kiung4
-㝱	mun4
-鄸	mun4
-䠢	mun4
+㝱	mung4
+鄸	mung4
+䠢	mung4
 𧽒	hiung4
 䠗	hiung4
 䠗	kiou4
