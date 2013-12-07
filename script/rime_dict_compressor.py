@@ -41,10 +41,10 @@ for line in fileinput.input():
     else:
       table_has_begun = True
       pass
+  if not line: continue
   t = line.split("\t")
-  if not t: continue
   text = t[0]
-  if len(t) < 2 and text not in phrase_table:
+  if len(t) < 2:
     if text not in phrase_table:
       phrase_list.append(text)
     phrase_table[text] = []
