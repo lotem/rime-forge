@@ -3,14 +3,14 @@
 
 schema:
   schema_id: guhuwubi
-  name: "新世纪五笔"
+  name: "孤狐五笔"
   version: “1.06a”
   author:
-    - 發明人 王永民先生
+    - 发明人 王永民先生
   description: |
-    五筆字型新世纪版
-    碼表源自 大一统输入法
-    敲 z 鍵進入拼音反查
+    孤狐新世纪五笔
+    基于孤狐五笔 1.06a码表生成
+    敲 z 键进入拼音反查
   dependencies:
     - pinyin_simp
 
