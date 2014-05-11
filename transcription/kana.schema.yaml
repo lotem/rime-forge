@@ -44,7 +44,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: 'abcdefghijklmnopqrstuvwxyz-ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_'
   delimiter: " '"
   algebra:
     - derive/q/x/
@@ -85,6 +85,7 @@ speller:
     - fuzz/^n$/m/
     - fuzz/^xtu$/t/
     - fuzz/^XTU$/T/
+    - derive/^-$/_/
 
 translator:
   dictionary: kana
@@ -110,3 +111,8 @@ key_binder:
 
 recognizer:
   import_preset: default
+
+ascii_composer:
+  switch_key:
+    Caps_Lock: noop
+    Eisu_toggle: clear
