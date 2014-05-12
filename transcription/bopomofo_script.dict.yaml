@@ -1,0 +1,87 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 注音文
+#
+
+---
+name: bopomofo_script
+version: "2014.05.12"
+sort: original
+...
+
+ㄅ	b
+ㄆ	p
+ㄇ	m
+ㄈ	f
+ㄪ	v
+ㄉ	d
+ㄊ	t
+ㄋ	n
+ㄌ	l
+ㄍ	g
+ㄎ	k
+ㄏ	h
+ㄫ	ng
+ㄐ	j
+ㄑ	q
+ㄒ	x
+ㄬ	gn
+ㄓ	zh
+ㄔ	ch
+ㄕ	sh
+ㄖ	r
+ㄗ	z
+ㄘ	c
+ㄙ	s
+ㄚ	a
+ㄛ	o
+ㄜ	e
+ㄝ	eh
+ㄞ	ai
+ㄟ	ei
+ㄠ	au
+ㄡ	ou
+ㄢ	an
+ㄣ	en
+ㄤ	ang
+ㄥ	eng
+ㄦ	er
+ㄧ	i
+ㄨ	u
+ㄩ	iu
+ㄭ	ih
+ˉ	1
+ˊ	2
+ˇ	3
+ˋ	4
+˙	5
+
+ㄧㄡ	iou
+ㄨㄟ	uei
+ㄧㄣ	in
+ㄨㄣ	uen
+ㄩㄣ	iun
+ㄧㄥ	ing
+ㄨㄥ	ung
+ㄩㄥ	iung
+ㄧㄝ	ie
+ㄨㄝ	ue
+ㄩㄝ	iue
+
+ㄋㄩ	niu
+ㄋㄩㄝ	niue
+ㄌㄩ	liu
+ㄌㄩㄝ	liue
+ㄐㄩ	jiu
+ㄐㄩㄝ	jiue
+ㄐㄩㄣ	jiun
+ㄐㄩㄥ	jiung
+ㄑㄩ	qiu
+ㄑㄩㄝ	qiue
+ㄑㄩㄣ	qiun
+ㄑㄩㄥ	qiung
+ㄒㄩ	xiu
+ㄒㄩㄝ	xiue
+ㄒㄩㄣ	xiun
+ㄒㄩㄥ	xiung
