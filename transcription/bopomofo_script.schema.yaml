@@ -27,7 +27,7 @@ engine:
     - punctuator
     - selector
     - navigator
-    - express_editor
+    - fluency_editor
   segmentors:
     - ascii_segmentor
     - matcher
@@ -42,7 +42,7 @@ engine:
 
 speller:
   alphabet: 'abcdefghijklmnopqrstuvwxyz12345'
-  delimiter: " '"
+  delimiter: "'"
   algebra:
     - xform/iu/yu/
     - derive/^([jqx])yu/$1u/
@@ -65,9 +65,16 @@ speller:
 
 translator:
   dictionary: bopomofo_script
+  preedit_format:
+    - "xlit/'/ /"
 
 punctuator:
   import_preset: default
+  use_space: true
+  full_shape:
+    ' ': { commit: '　' }
+  half_shape:
+    ' ': { commit: ' ' }
 
 key_binder:
   import_preset: default
