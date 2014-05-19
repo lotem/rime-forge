@@ -5,7 +5,7 @@
 schema:
   schema_id: kana
   name: 假名
-  version: "2014.05.11"
+  version: "2014.05.19"
   author:
     - polyhedron <polyhedron@gmail.com>
     - foodgen <chen.sst@gmail.com>
@@ -42,6 +42,9 @@ engine:
     - script_translator
   filters:
     - uniquifier
+
+menu:
+  page_size: 1
 
 speller:
   alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_'
@@ -82,7 +85,7 @@ speller:
     - derive/^n$/nn/
     - derive/^N$/NN/
     - fuzz/^n$/m/
-    - fuzz/^n$/m/
+    - fuzz/^N$/M/
     - fuzz/^xtu$/t/
     - fuzz/^XTU$/T/
     - derive/^-$/_/
