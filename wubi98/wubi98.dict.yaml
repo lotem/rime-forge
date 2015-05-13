@@ -5,7 +5,7 @@
 
 ---
 name: wubi98
-version: "0.1"
+version: "0.2"
 sort: by_weight
 columns:
   - text
@@ -29,7 +29,7 @@ encoder:
 以	c	877760000	ny
 在	d	2680941176	dh
 有	e	2293694117	de
-地	f	8df6978823	fb
+地	f	846978823	fb
 一	g	2810023529	gg
 上	h	4220000000	hh
 不	i	2124894117	dh
