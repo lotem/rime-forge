@@ -1,0 +1,17 @@
+set package_list=%package_list%^
+ biopolyhedron/rime-arabic^
+ biopolyhedron/rime-burmese^
+ biopolyhedron/rime-devanagari^
+ biopolyhedron/rime-greek^
+ biopolyhedron/rime-hebrew^
+ biopolyhedron/rime-jap-poly^
+ biopolyhedron/rime-kyril-international^
+ biopolyhedron/rime-latin-international^
+ biopolyhedron/rime-manju^
+ biopolyhedron/rime-mongol^
+ biopolyhedron/rime-qyeyshanglr-hanja^
+ biopolyhedron/rime-tangut-poly4^
+ biopolyhedron/rime-thai-stupid^
+ biopolyhedron/rime-tibetan^
+ biopolyhedron/rime-uyghur^
+ biopolyhedron/rime-middle-chinese^
