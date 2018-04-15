@@ -1,4 +1,5 @@
 set package_list=%package_list%^
+ lotem/rime-aoyu^
  lotem/rime-bopomofo-script^
  lotem/rime-dungfungpuo^
  lotem/rime-guhuwubi^
