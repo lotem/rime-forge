@@ -2,7 +2,7 @@
 
 配方： ℞ **{{recipe-name}}**
 
-[Rime](http://rime.im) {{輸入法名稱}}輸入方案
+[Rime](https://rime.im) {{輸入法名稱}}輸入方案
 
 {{簡介}}
 
